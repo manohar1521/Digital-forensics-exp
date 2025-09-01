@@ -25,7 +25,7 @@ Launch FTK Imager: Open the FTK Imager application.
 Start Imaging: Go to the "File" menu and select "Create Disk Image." Choose "Physical Drive" as the source.
 ![alt text](<Screenshots/Screenshot 2025-09-01 205204.png>)
 Select Drive: From the list, select the physical drive you want to image. Use the drive's serial number or model to confirm it's the correct one.
-![alt text](<Screenshots/Screenshot 2025-09-01 205204.png>)
+![alt text](<Screenshots/Screenshot 2025-09-01 205048.png>)
 Add Destination: Click "Add" to specify where the image will be saved. Choose an image type (e.g., E01 for compressed images with metadata or Raw/DD for a simple bit-by-bit copy).
 ![alt text](<Screenshots/Screenshot 2025-09-01 205220.png>)
 Enter Case Information: Provide the case number, evidence number, and a description. This information is embedded in the image file and is vital for maintaining the chain of custody.
