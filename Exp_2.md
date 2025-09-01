@@ -17,13 +17,13 @@ A destination storage device with enough free space to save the recovered files.
 
 ## Procedure
 Preparation: Download and install TestDisk and PhotoRec. It's best to run the software from a different drive than the one you're trying to recover to avoid further damage.
-![alt text](<Screenshorts1/Screenshot 2025-09-01 221911 - Copy.png>)
+![alt text](<Screenshorts1/Screenshot 2025-09-01 221822.png>)
 Launch TestDisk: Open a terminal or command prompt and launch TestDisk. You'll likely need administrative privileges. The program will present a text-based interface.
-![alt text](<Screenshorts1/Screenshot 2025-09-01 221911.png>)
+![alt text](<Screenshorts1/Screenshot 2025-09-01 221847.png>)
 Create a Log File: The first step is to create a new log file to record the actions of the recovery process. This is good practice for documentation and troubleshooting.
-![alt text](<Screenshorts1/Screenshot 2025-09-01 221927.png>)
+![alt text](<Screenshorts1/Screenshot 2025-09-01 221911.png>)
 Select the Disk: From the list of connected storage devices, select the damaged disk you want to analyze. Be extremely careful to choose the correct one.
-
+![alt text](<Screenshorts1/Screenshot 2025-09-01 221927.png>)
 Select Partition Table Type: TestDisk will try to auto-detect the partition table type (e.g., Intel, Mac, Sun). Confirm the correct type or choose it manually.
 ![alt text](<Screenshorts1/Screenshot 2025-09-01 221940.png>)
 Analyze the Disk: Choose the 'Analyze' option to have TestDisk scan the disk for partitions. It will display a list of current and potentially lost partitions.
