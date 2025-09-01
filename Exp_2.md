@@ -17,24 +17,25 @@ A destination storage device with enough free space to save the recovered files.
 
 ## Procedure
 Preparation: Download and install TestDisk and PhotoRec. It's best to run the software from a different drive than the one you're trying to recover to avoid further damage.
-
+![alt text](<Screenshorts1/Screenshot 2025-09-01 221911 - Copy.png>)
 Launch TestDisk: Open a terminal or command prompt and launch TestDisk. You'll likely need administrative privileges. The program will present a text-based interface.
-
+![alt text](<Screenshorts1/Screenshot 2025-09-01 221911.png>)
 Create a Log File: The first step is to create a new log file to record the actions of the recovery process. This is good practice for documentation and troubleshooting.
-
+![alt text](<Screenshorts1/Screenshot 2025-09-01 221927.png>)
 Select the Disk: From the list of connected storage devices, select the damaged disk you want to analyze. Be extremely careful to choose the correct one.
 
 Select Partition Table Type: TestDisk will try to auto-detect the partition table type (e.g., Intel, Mac, Sun). Confirm the correct type or choose it manually.
-
+![alt text](<Screenshorts1/Screenshot 2025-09-01 221940.png>)
 Analyze the Disk: Choose the 'Analyze' option to have TestDisk scan the disk for partitions. It will display a list of current and potentially lost partitions.
-
+![alt text](<Screenshorts1/Screenshot 2025-09-01 221956.png>)
 Search for Partitions: If the 'Analyze' step doesn't show the correct partition, select the 'Quick Search' option to perform a more thorough scan.
-
+![alt text](<Screenshorts1/Screenshot 2025-09-01 222052.png>)
 Deeper Scan (if needed): If the quick search fails, choose 'Deeper Search'. This will take significantly longer as it scans every sector of the drive.
-
+![alt text](<Screenshorts1/Screenshot 2025-09-01 222115.png>)
 Restore or Recover: Once TestDisk finds the lost partition, you can use the 'Write' option to restore the partition table. If you want to recover specific files, you can navigate into the partition using the 'List' option. This will show a directory tree where you can select and copy files to the destination drive. For deleted files, you can use the PhotoRec utility, which is included with TestDisk, to carve files from the free space.
-
+![alt text](<Screenshorts1/Screenshot 2025-09-01 223102 - Copy.png>)
 Save Recovered Data: When you recover files, they should be saved to a different, healthy storage device to ensure you don't write over the data you are attempting to recover.
+![alt text](<Screenshorts1/Screenshot 2025-09-01 223102.png>)
 
 ## Result Experiment
 The result of this experiment is the successful recovery of the partition structure on the damaged drive and/or the retrieval of specific deleted or corrupted files. After running TestDisk and PhotoRec, the recovered files should be accessible on the destination storage device, restoring the lost data.

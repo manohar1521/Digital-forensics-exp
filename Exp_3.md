@@ -13,7 +13,7 @@ The Wireshark software package installed on the computer.
 
 Administrative privileges on the computer to allow Wireshark to capture packets.
 
-Procedure
+## Procedure
 Launch Wireshark: Open Wireshark with administrative privileges.
 
 Select Network Interface: On the main screen, you will see a list of available network interfaces (e.g., Ethernet, Wi-Fi). Select the interface you want to monitor, which is the one currently connected to the network.
