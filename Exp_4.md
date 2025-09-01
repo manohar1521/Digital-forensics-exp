@@ -21,30 +21,36 @@ Open the suspicious email in your email client.
 Locate the option to view the "original" message or "show details" to expose the full email header. The exact steps vary by client (e.g., in Gmail, it's under the three-dot menu; in Outlook, it's often in the message properties).
 
 Copy the entire email header text. It's a block of technical information, often starting with "Received:" lines.
+![alt text](<Screenshots3/Screenshot 2025-09-02 000045.png>)
 
 Paste into MHA:
 
 Navigate to your chosen online Mail Header Analyzer tool.
 
 Paste the copied header text into the designated input box.
+![alt text](<Screenshots3/Screenshot 2025-09-02 000108.png>)
 
 Analyze the Results:
 
 The analyzer will parse the header and display the results in a clean, easy-to-read format.
+![alt text](<Screenshots3/Screenshot 2025-09-02 000138.png>)
 
 Focus on key fields for spoofing detection:
 
 Received: This section shows the email's journey. Read from the bottom up to trace the email's true origin. The first "Received" line at the bottom shows the sending server's IP and domain. If this domain doesn't match the "From" address, it's a major red flag. 🚩
 
 From: This is the visible sender address. Compare this to the Return-Path and Reply-To fields, which are harder to forge. If they don't match, the "From" address is likely spoofed.
+![alt text](<Screenshots3/Screenshot 2025-09-02 000243.png>)
 
 Authentication-Results: Look for the results of SPF (Sender Policy Framework), DKIM (DomainKeys Identified Mail), and DMARC (Domain-based Message Authentication, Reporting & Conformance).
+![alt text](<Screenshots3/Screenshot 2025-09-02 000400.png>)
 
 SPF: A "Fail" result means the sending server's IP address isn't authorized to send mail for the domain in the "From" address.
 
 DKIM: A "Fail" result indicates the digital signature is invalid.
 
 DMARC: This provides a policy on what to do if SPF or DKIM fail. A "Fail" result is a strong indicator of spoofing.
+![alt text](<Screenshots3/Screenshot 2025-09-02 000415.png>)
 
 ## Result Experiment
 The result of this experiment is a clear determination of whether the analyzed email is spoofed. By cross-referencing the parsed header information, you will identify mismatches between the displayed sender (From address) and the email's true origin (as seen in the Received headers and authentication results). A "Fail" on SPF, DKIM, or DMARC, coupled with a mismatched Received or Return-Path domain, provides conclusive evidence of an email spoofing attempt.
