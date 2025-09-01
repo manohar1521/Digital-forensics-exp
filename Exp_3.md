@@ -15,8 +15,9 @@ Administrative privileges on the computer to allow Wireshark to capture packets.
 
 ## Procedure
 Launch Wireshark: Open Wireshark with administrative privileges.
-
+![alt text](<Screenshots2/Screenshot 2025-09-01 230725.png>)
 Select Network Interface: On the main screen, you will see a list of available network interfaces (e.g., Ethernet, Wi-Fi). Select the interface you want to monitor, which is the one currently connected to the network.
+![alt text](<Screenshots2/Screenshot 2025-09-01 231043.png>)he network.
 
 Start Capture: Click the 'Start' button (often a shark fin icon) to begin capturing network traffic. Wireshark will immediately start displaying packets in real time as they traverse the selected interface.
 
@@ -27,14 +28,15 @@ Stop Capture: Once you have captured enough data (usually after a few minutes), 
 Analyze Packets:
 
 Packet List Pane (Top): This pane shows a summary of each captured packet. You can click on a packet to select it.
-
+![alt text](<Screenshots2/Screenshot 2025-09-01 231215.png>)
 Packet Details Pane (Middle): This pane provides a detailed breakdown of the selected packet's layers (e.g., Ethernet, IP, TCP/UDP). Expand these layers to see the header information and fields.
-
+![alt text](<Screenshots2/Screenshot 2025-09-01 231215.png>)
 Packet Bytes Pane (Bottom): This pane shows the raw hexadecimal data of the packet, with the corresponding ASCII characters.
-
+![alt text](<Screenshots2/Screenshot 2025-09-01 232030.png>)
+![alt text](<Screenshots2/Screenshot 2025-09-01 232105.png>)
 Apply Filters: Use the display filter bar at the top to narrow down the captured traffic. For example, typing http will show only HTTP traffic, and ip.addr == 192.168.1.1 will show traffic to or from a specific IP address.
-
+![alt text](<Screenshots2/Screenshot 2025-09-01 235116.png>)
 Save the Capture: Save the captured packets in a file (with a .pcap or .pcapng extension) for future analysis.
-
+![alt text](<Screenshots2/Screenshot 2025-09-01 233308.png>)
 ## Result Experiment
 The result of this experiment is a captured network trace file that provides a comprehensive view of the network traffic. By analyzing this data, you will be able to identify the protocols in use, the source and destination of the traffic, and the contents of the data being transmitted. This is a crucial skill for diagnosing network issues, monitoring for security threats, and understanding how different applications communicate over a network.
