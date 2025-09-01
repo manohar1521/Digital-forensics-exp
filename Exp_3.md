@@ -30,7 +30,7 @@ Analyze Packets:
 Packet List Pane (Top): This pane shows a summary of each captured packet. You can click on a packet to select it.
 ![alt text](<Screenshots2/Screenshot 2025-09-01 231215.png>)
 Packet Details Pane (Middle): This pane provides a detailed breakdown of the selected packet's layers (e.g., Ethernet, IP, TCP/UDP). Expand these layers to see the header information and fields.
-![alt text](<Screenshots2/Screenshot 2025-09-01 231215.png>)
+
 Packet Bytes Pane (Bottom): This pane shows the raw hexadecimal data of the packet, with the corresponding ASCII characters.
 ![alt text](<Screenshots2/Screenshot 2025-09-01 232030.png>)
 ![alt text](<Screenshots2/Screenshot 2025-09-01 232105.png>)
